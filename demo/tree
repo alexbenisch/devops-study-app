@@ -1,0 +1,4 @@
+# docker run --rm demo:03
+Hello from demo!
+second message!
+Let's build some images!

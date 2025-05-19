@@ -8,12 +8,3 @@ if ! command -v cz >/dev/null && [ "$DEVPOD" = "true" ]; then
   pre-commit install
   pre-commit install --hook-type commit-msg
 fi
-
-# .pre-commit-config.yaml
-
-repos:
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: v1.17.0
-    hooks:
-      - id: commitizen
-        stages: [commit-msg]
