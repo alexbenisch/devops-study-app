@@ -20,5 +20,6 @@ __all__ = [
     "get_sessions_by_tag",
     "get_statistics",
     "app",
-]def main() -> None:
+]
+def main() -> None:
     print("Hello from backend!")
